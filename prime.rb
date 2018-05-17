@@ -14,6 +14,7 @@ while spot < ar.length-1 && true_false != false
   if is_prime % ar[i] == 0 
     true_false = false
 end
+spot++
 end
 else 
   true_false = false
