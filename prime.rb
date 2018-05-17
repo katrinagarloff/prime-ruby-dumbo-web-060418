@@ -8,8 +8,10 @@ def prime? (is_prime)
 end
 
 if is_prime > 1 
-ar.each do |i|
-  if is_prime % i == 0 
+#ar.each do |i|
+spot = 0
+while spot < ar.length-1 && true_false != false
+  if is_prime % ar[i] == 0 
     true_false = false
 end
 end
