@@ -9,7 +9,7 @@ end
 
 if is_prime > 1 
 ar.each do |i|
-  if is_prime % ar[i] == 0 
+  if is_prime % i == 0 
     true_false = false
 end
 end
